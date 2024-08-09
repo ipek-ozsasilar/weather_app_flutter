@@ -2,8 +2,6 @@
 
 ### *This project, written in flutter, shows the 7-day weather forecast across Turkey. If a non-existent city name is entered, it will return page 404. When we click on a day we want on the last page, we can see the weather information for that day in the container above.*<br/><br/>
 
-# **Linkedin**<br/>
-[Linkedin Profile](https://www.linkedin.com/in/ipek-ozsasilar/)<br/><br/>
 
 # **Screenshots**<br/>
 ![weather_app_search_page](https://github.com/user-attachments/assets/1d7091b4-2a3d-4c94-b1d0-b5b6d74c3153)
