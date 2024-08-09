@@ -2,6 +2,8 @@
 import 'dart:ui';
 //flutter
 import 'package:flutter/material.dart';
+//lottie
+import 'package:lottie/lottie.dart';
 //model
 import 'package:weather_app_with_api/model/weather_model.dart';
 //screen
@@ -86,7 +88,7 @@ class _uiClassState extends State<uiClass> {
         ],
       ),
 
-      body: widget.items?.city==null ? Placeholder(color:weatherColorClass.redColor,) : ListView(
+      body: widget.items?.city==null ? LottieBuilder.asset("assets/animation_error.json", height: 600,) : ListView(
         padding: weatherPaddingClass.horizontalPadding+weatherPaddingClass.topPadding,
         children: [
           Center(

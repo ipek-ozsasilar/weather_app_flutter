@@ -1,6 +1,8 @@
 //flutter
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+//lottie
+import 'package:lottie/lottie.dart';
 //model
 import 'package:weather_app_with_api/model/weather_model.dart';
 import 'package:weather_app_with_api/screen/text/text_class.dart';
